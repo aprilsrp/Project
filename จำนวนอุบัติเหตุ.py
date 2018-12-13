@@ -1,6 +1,6 @@
 import pygal
 line_chart = pygal.Bar()
-line_chart.title = 'Number of deaths during the Songkran festival over the past 5 years'
+line_chart.title = 'Number of deaths during the Songkran festival over the past 10 years'
 '''line_chart.x_labels = map(str, range(2557, 2561))'''
 line_chart.add('2552', [3977])
 line_chart.add('2553', [3516])
